@@ -58,6 +58,7 @@ public class SampleAdapter extends RecyclerView.Adapter<SampleAdapter.SampleData
 
         public void bind(SampleDataViewModel sampleDataViewModel) {
             binding.setSampleViewModel(sampleDataViewModel);
+            binding.executePendingBindings();
             Log.i("asd", sampleDataViewModel.toString());
         }
     }

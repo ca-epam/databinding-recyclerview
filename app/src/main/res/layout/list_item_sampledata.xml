@@ -26,11 +26,17 @@
             android:layout_height="wrap_content"
             android:text="@{sampleViewModel.text1}"/>
 
-        <TextView
+        <EditText
             android:id="@+id/tvText2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@{sampleViewModel.text2}" />
+
+        <TextView
+            android:id="@+id/tvText3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@{sampleViewModel.text2}"/>
 
     </LinearLayout>
 
