@@ -6,7 +6,6 @@
         <variable
             name="sampleViewModel"
             type="com.example.adrian.recyclerviewexample.model.SampleDataViewModel" />
-
     </data>
 
     <LinearLayout
@@ -17,19 +16,19 @@
         <TextView
             android:layout_width="30dp"
             android:layout_height="wrap_content"
-            android:text="id: "/>
+            android:text="id: " />
 
         <TextView
             android:id="@+id/tvId"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
-            android:text="@{String.valueOf(sampleViewModel.id)}"/>
+            android:text="@{String.valueOf(sampleViewModel.id)}" />
 
         <TextView
             android:id="@+id/tvText1"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@{sampleViewModel.text1}"/>
+            android:text="@{sampleViewModel.text1}" />
 
         <EditText
             android:id="@+id/tvText2"
@@ -41,7 +40,7 @@
             android:id="@+id/tvText3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@{sampleViewModel.text2}"/>
+            android:text="@{sampleViewModel.text2}" />
 
     </LinearLayout>
 
